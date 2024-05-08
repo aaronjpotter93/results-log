@@ -1,0 +1,10 @@
+ul.horizontal-list {
+    list-style-type: none;
+    display: flex;
+    justify-content: space-between;
+}
+
+ul.horizontal-list li {
+    flex-grow: 1;
+    text-align: center; /* To center the numbers */
+}

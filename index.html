@@ -6,6 +6,14 @@
     <title>Document</title>
 </head>
 <body>
-    
+    <h1>Summary of Results</h1>
+    <h2 id="date">Date String</h2>
+    <script src="date.js"></script>
+    <script>
+        document.querySelector('#date').textContent = dateString;
+    </script>
+    <div>
+        <button onclick="window.location.href = 'log.html';">Log an Entry</button>
+    </div>
 </body>
 </html>

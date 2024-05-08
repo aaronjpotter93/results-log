@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Document</title>
+</head>
+<body>
+    <div>
+        <button onclick="window.location.href = 'index.html';">Return to Summary</button>
+    </div>
+    <div>
+        <h1>Log an Entry</h1>
+        <h2 id="date">Date String</h2>
+        <script src="date.js"></script>
+        <script>
+            document.querySelector('#date').textContent = dateString;
+        </script>
+    </div>
+    <div style="width: 50%; float: left; background-color: lightcoral;">
+        <h3>Intensions</h3>
+        <p>Being a good partner</p>
+        <ul>
+            <li>Cleaning</li>
+            <li>Cooking</li>
+            <li>Touch</li>
+            <li>Listening</li>
+            <li>Intentional Time (ie. Dates)</li>
+        </ul>
+    </div>
+    <div style="width: 50%; float: right; background-color: aquamarine;">
+        <h3>Results</h3>
+        <ul class="horizontal-list">
+            <li>1</li>
+            <li>2</li>
+            <li>3</li>
+            <li>4</li>
+            <li>5</li>
+        </ul>
+    </div>
+</body>
+</html>
